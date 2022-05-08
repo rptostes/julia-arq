@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0 auto;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+main{
+    height: 100vh;
+  
+}
+
+#menu-h{
+    list-style-type: none;
+    padding: auto 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#menu-h li{
+    display: inline;
+}
+
+#menu-h li a{
+   color: aliceblue;
+   padding: 15px;
+   display: inline-block;
+   text-decoration: none;
+}
+
+#menu-h li a:hover {
+    color: #0ebfc5;
+    text-decoration: dashed;
+    transition: 300ms;
+}
+
+.logo img{
+    max-width:180px;
+    padding: 2px;
+    width: auto;
+    height: auto;
+}
+
+header{
+    font-style: color white;
+    line-height: 1.0;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px;
+    background-color: rgb(67, 65, 65);
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(52, 70, 70);
+}
+
+.nome-top{
+    text-align: center;
+    padding: 20px;
+    justify-content: space-around;
+    color:white ;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.content{
+    height: 520px;
+    width: 935px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.navimg{
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex
+}
+
+.bar {
+    width: 60px;
+    height: 17px;
+    border: 2px solid rgb(252, 252, 252);
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.bar:hover{
+    background-color: wheat;
+}
+
+input{
+    display: none;
+}
+
+.slides{
+
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide{
+    width: 20%;
+    transition: .6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+
+}
+
+#slide2:checked ~ .s1{
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1{
+    margin-left: -40%;
+}
+
+#slide4:checked ~ .s1{
+    margin-left: -60%;
+}
+
+#slide5:checked ~ .s1{
+    margin-left: -80%;
+}
+
+.site-footer{
+    background-color:rgb(52, 70, 70);
+    background-image: none;
+    background-position: var;
+    background-repeat: var;
+    border-top: var;
+    background-size: var;
+    color: var;
+    padding-top: var;
+    padding-bottom: var;
+}
+
+.site-footer{
+    text-align: center;
+    position: relative;
+}
