@@ -149,20 +149,3 @@ input{
 #slide5:checked ~ .s1{
     margin-left: -80%;
 }
-
-.site-footer{
-    background-color:rgb(52, 70, 70);
-    background-image: none;
-    background-position: var;
-    background-repeat: var;
-    border-top: var;
-    background-size: var;
-    color: var;
-    padding-top: var;
-    padding-bottom: var;
-}
-
-.site-footer{
-    text-align: center;
-    position: relative;
-}
